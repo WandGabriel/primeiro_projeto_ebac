@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: rgb(168, 164, 164);
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;    
+}
+
+header img {
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+header ul li,
+#images ul li {
+    display: inline;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+header li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+}
+
+header li a:hover{
+    text-decoration: underline;
+}
+
+#history h2 {
+    margin: 10px 0;
+}
+
+#history p {
+    padding: 5px;
+    font-size: 16px;
+;
+}
+
+#history .container,
+#characters .container {
+    display: flex;
+}
+
+.dream-team,
+#images img {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.characters-position {
+    display: flex;
+    align-items: center;
+}
+
+.characters-position img {
+    width: 150px;
+}
+
+#images img {
+    width: 600px;
+}
+
+.footer-finish {
+    text-align: center;
+    background-color: rgb(168, 164, 164);
+    padding: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form input,
+form textarea,
+button{
+display: block;
+width: 320px;
+margin-bottom: 8px;
+padding: 8px;
+}
+
+form textarea {
+    height: 150px;
+    resize: none;   
+    text-align: center;
+}
+
+form button {
+    background-color:rgb(168, 164, 164);
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover{
+    background-color: #868282;
+}
+
+h2, h3 {
+    margin-bottom: 20px;
+}
